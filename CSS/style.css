@@ -43,6 +43,27 @@ nav li{
     text-decoration: none;
     color: grey;
 }
+/* media image for 425*289 */
+@media(max-width: 425px){
+.nav {
+        display: inline;
+}
+.main img{
+    height: 100%;
+    width: 100%;
+}
+.footerimg img{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+}
+.third{
+    width: 100%;
+}
+
+}
 /* the middle img with sizing */
 .middle{
     margin: -20px 0px 0px 0px;
@@ -137,7 +158,7 @@ nav li{
 }
 
 .bottomdivright h5{
-    margin: 10px;
+    margin: 0px;
     text-align: start;
 }
 

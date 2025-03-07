@@ -1,0 +1,177 @@
+/* the top container and logo */
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: #5094f2;
+    border-radius: 50%;
+    background-image: url(../image/topimage.png);
+    font-size: 10px;
+    background-position: center;
+    background-size: 25px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerleft p{
+    padding: 3px;
+    color: grey;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.headerleft{
+    display: flex;
+    align-items: center;
+    margin: 0px 45px 5px 125px;
+    
+}
+
+.headerright{
+    margin-right: 120px;
+}
+
+.headerright a{
+    color: grey;
+}
+
+nav li{
+    display: inline;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: grey;
+}
+/* the middle img with sizing */
+.middle{
+    margin: -20px 0px 0px 0px;
+}
+
+.middle img{
+    width: 100%;
+    height: 100%;
+}
+/* the third section with img and sizing */
+
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+}
+
+.third h3{
+    color: #99c1f8;
+    margin: 0px;
+}
+
+.third p{
+    color: grey;
+    margin: 0px 60px 0px 60px;
+    font-size: x-small;
+}
+
+.red img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+.gold img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.blue img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+
+.divA{
+    margin: 50px 0px 50px 50px;
+    flex: 1;
+    text-align: center;
+}
+
+.divB{
+    margin: 50px 50px 50px 50px;   
+    flex: 1;
+    text-align: center;
+}
+
+.divC{
+    margin: 50px 50px 50px 0px;
+    flex: 1;
+    text-align: center;
+}
+/* the fouth ssection with 2 separate div alignment */
+.largebasket{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0PX 80PX 0PX 80PX;
+}
+
+.largebasket h4{
+    color: grey;
+    font-size: 30px;
+}
+
+.largebasket h5{
+    color: grey;
+    font-size: 19px;
+}
+
+.largebasket p{
+    color: grey;
+    font-size: medium;
+    justify-content: space-around;
+}
+
+.bottomdivright{
+    margin: 80px 15px 20px 20px;
+    flex: 1;
+    
+}
+
+.bottomdivright h5{
+    margin: 10px;
+    text-align: start;
+}
+
+.bottomdivright p{
+    text-align: start;
+    word-spacing: 10px;
+    line-height: 1.6;
+}
+
+.bottomdiv img{
+    width: 310px;
+    height: 210px;
+}
+
+.bottomdiv h4{
+    margin: 0px;
+    font-size: xx-large;
+    word-spacing: 10px;
+}
+
+.bottomdiv{
+    justify-content: left;
+    flex: 1;
+    margin: 30px 0px 0px 70px;
+}
+/* footer logo and sizing */
+
+footer{
+    color: grey;
+    text-align: center;
+    border-top: solid grey;
+}
+.footerimg img{
+    height: 100%;
+    width: 100%;
+}
+

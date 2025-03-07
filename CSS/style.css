@@ -42,27 +42,7 @@ nav li{
     margin: 0px 10px;
     text-decoration: none;
     color: grey;
-}
-/* media image for 425*289 */
-@media(max-width: 425px){
-.nav {
-        display: inline;
-}
-.main img{
-    height: 100%;
-    width: 100%;
-}
-.footerimg img{
-    height: 100%;
-    width: 100%;
-}
-.footer{
-    width: 100%;
-}
-.third{
-    width: 100%;
-}
-
+    
 }
 /* the middle img with sizing */
 .middle{
@@ -196,3 +176,24 @@ footer{
     width: 100%;
 }
 
+/* media image for 425*289 */
+@media(max-width: 425px){
+    .nav {
+            display: inline;
+    }
+    .main img{
+        height: 100%;
+        width: 100%;
+    }
+    .footerimg img{
+        height: 100%;
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .third{
+        width: 100%;
+    }
+
+}
